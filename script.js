@@ -1,6 +1,6 @@
 // Grafo básico con lista de adyacencia
 class Grafo {
-    constructor() { //Ecada vez que pase por un nuevo nodo el constructor se ejecuta automaticamente
+    constructor() { 
         this.ady = {}; // aquí guardamos los barrios (cada barrio tendrá su lista de calles)
     }
 
